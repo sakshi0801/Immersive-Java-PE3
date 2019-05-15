@@ -51,7 +51,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/ConsecutiveNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
+            <state relative-caret-position="450">
               <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
             </state>
           </provider>
@@ -252,6 +252,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -279,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConsecutiveNumbersTest">
+  <component name="RunManager" selected="JUnit.VowelConSonentTest">
     <configuration name="ConsecutiveNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE3" />
       <extension name="coverage">
@@ -290,6 +291,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute.pe3" />
       <option name="MAIN_CLASS_NAME" value="com.stackroute.pe3.ConsecutiveNumbersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PE3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.pe3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute.pe3" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.pe3.GenerateExceptionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -306,22 +322,6 @@
       <option name="PACKAGE_NAME" value="com.stackroute.pe3" />
       <option name="MAIN_CLASS_NAME" value="com.stackroute.pe3.StringArraysTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringArraysTest.returnSamearrayWhenNoDuplicatesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PE3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stackroute.pe3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.stackroute.pe3" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.pe3.StringArraysTest" />
-      <option name="METHOD_NAME" value="returnSamearrayWhenNoDuplicatesTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -358,11 +358,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConsecutiveNumbersTest" />
-        <item itemvalue="JUnit.StringArraysTest.returnSamearrayWhenNoDuplicatesTest" />
         <item itemvalue="JUnit.VowelConSonentTest" />
         <item itemvalue="JUnit.StudentMarksTest" />
         <item itemvalue="JUnit.StringArraysTest" />
+        <item itemvalue="JUnit.GenerateExceptionTest" />
+        <item itemvalue="JUnit.ConsecutiveNumbersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -380,9 +380,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentMarksTest - 2019.05.15 at 07h 12m 08s.xml">
-      <configuration name="StudentMarksTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="VowelConSonentTest - 2019.05.15 at 07h 12m 13s.xml">
       <configuration name="VowelConSonentTest" configurationId="JUnit" />
     </history-entry>
@@ -410,10 +407,12 @@
     <history-entry file="StringArraysTest_returnSamearrayWhenNoDuplicatesTest - 2019.05.15 at 15h 05m 42s.xml">
       <configuration name="StringArraysTest.returnSamearrayWhenNoDuplicatesTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ConsecutiveNumbersTest - 2019.05.15 at 15h 46m 41s.xml">
+      <configuration name="ConsecutiveNumbersTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -583,7 +582,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe3/ConsecutiveNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
+        <state relative-caret-position="450">
           <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
         </state>
       </provider>
